@@ -16,6 +16,8 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(Catch2)
 
 add_executable(tests
-    easy/0001_two_sum.cpp)
+    easy/0001_two_sum.cpp
+    easy/0007_reverse_integer.cpp
+)
 
 target_link_libraries(tests PRIVATE Catch2::Catch2WithMain)

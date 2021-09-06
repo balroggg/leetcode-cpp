@@ -11,7 +11,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
     std::unordered_map<int, int> map;
     for (size_t i = 0; i < nums.size(); i++) {
         int complement = target - nums[i];
-        if (map.find(complement) != std::end(map) ) {
+        if (map.contains(complement)) {
             return { map[complement], static_cast<int>(i) };
         }
         map[nums[i]] = static_cast<int>(i);
@@ -19,7 +19,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
     return {-1, -1};
 }
 
-}
+} // end of namespace
 
 TEST_CASE( "Problem 1: Two sum", "[easy]" ) {
     {
