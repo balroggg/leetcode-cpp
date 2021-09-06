@@ -4,8 +4,8 @@ Solve leetcode problems
 Easy problems:
 
 - [x] [1. Two Sum](https://leetcode.com/problems/two-sum) ![(code)](easy/0001_two_sum.cpp)
-- [ ] [7. Reverse Integer](https://leetcode.com/problems/reverse-integer)
-- [ ] [9. Palindrome Number](https://leetcode.com/problems/palindrome-number)
+- [x] [7. Reverse Integer](https://leetcode.com/problems/reverse-integer) ![(code)](easy/0007_reverse_integer.cpp)
+- [x] [9. Palindrome Number](https://leetcode.com/problems/palindrome-number) ![(code)](easy/0009_palindrome_number.cpp)
 - [ ] [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer)
 - [ ] [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)
 - [ ] [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
