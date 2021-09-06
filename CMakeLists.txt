@@ -18,6 +18,7 @@ FetchContent_MakeAvailable(Catch2)
 add_executable(tests
     easy/0001_two_sum.cpp
     easy/0007_reverse_integer.cpp
+    easy/0009_palindrome_number.cpp
 )
 
 target_link_libraries(tests PRIVATE Catch2::Catch2WithMain)
