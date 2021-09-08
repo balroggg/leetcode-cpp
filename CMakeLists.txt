@@ -20,6 +20,7 @@ add_executable(tests
     easy/0007_reverse_integer.cpp
     easy/0009_palindrome_number.cpp
     easy/0013_roman_to_integer.cpp
+    easy/1979_find_gcd_of_array.cpp
 )
 
 target_link_libraries(tests PRIVATE Catch2::Catch2WithMain)
