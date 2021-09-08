@@ -16,6 +16,7 @@ Easy problems:
 - [ ] [1089. Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)
 - [ ] [1614. Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)
 - [ ] [1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
+- [x] [1979. Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) ![(code)](easy/1979_find_gcd_of_array.cpp)
 
 Medium problems:
 
